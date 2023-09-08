@@ -4,11 +4,11 @@
 
 * Clase
 
-- [ ] *github* 
-- [ ] *Linux*. /.bashrc/
-- [ ] *emacs*. /.emacs/
-- [ ] *LaTex*. overleaf
-- [ ] *Gnuplot*. Script
-- [ ] *C*
-- [ ] *Python* 
+- [X] *github* 
+- [X] *Linux*. /.bashrc/
+- [X] *emacs*. /.emacs/
+- [X] *LaTex*. overleaf
+- [X] *Gnuplot*. Script
+- [X] *C*
+- [X] *Python* 
 
