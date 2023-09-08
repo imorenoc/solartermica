@@ -1,0 +1,14 @@
+#+title: Energía Fototérmica
+#+author: Dr. Isaías Moreno Cruz
+
+
+* Clase
+
+- [ ] *github* 
+- [ ] *Linux*. /.bashrc/
+- [ ] *emacs*. /.emacs/
+- [ ] *LaTex*. overleaf
+- [ ] *Gnuplot*. Script
+- [ ] *C*
+- [ ] *Python* 
+
