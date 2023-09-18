@@ -2,13 +2,7 @@
 #+author: Dr. Isaías Moreno Cruz
 
 
-* Clase
+* Introducción
 
-- [X] *github* 
-- [X] *Linux*. /.bashrc/
-- [X] *emacs*. /.emacs/
-- [X] *LaTex*. overleaf
-- [X] *Gnuplot*. Script
-- [X] *C*
-- [X] *Python* 
+El siguiente 
 
