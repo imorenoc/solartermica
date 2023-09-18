@@ -1,0 +1,94 @@
+% --------------------------------------------------------------
+
+\documentclass[spanish, letterpaper,12]{article}
+
+\usepackage[activeacute]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\spanishdecimal{.}
+
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[margin=1in]{geometry} 
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[numbers]{natbib}
+\usepackage{enumitem} % para reducir el espacio [noitemsep,nolistsep]
+\usepackage{verbatim}
+
+\usepackage{booktabs} % para las tablas \toprule \bo
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{./fig/}}
+
+
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\includegraphics[width=3cm]{upa.jpg}}
+\fancyhead[R]{}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Teorema]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Ejercicio]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problema]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Pregunta]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Proyecto: Vector Solar}
+\author{Profesor: Dr. Isaías Moreno Cruz\\
+  Ingeniería en Energía Fototérmica (2023)\\
+Universidad Politécnica de Aguascalientes (UPA)}
+\date{18 de septiembre de 2023}
+
+\maketitle
+
+\begin{itemize}[leftmargin=*, noitemsep]
+\item \textbf{Fecha de encargo:} lunes 18 de septiembre
+\item \textbf{Fecha de entrega:} lunes 25 de septiembre
+\end{itemize}
+% You can use theorem, exercise, problem, or question here.
+% --------------------------------------------------------------
+\thispagestyle{fancy}
+
+\section*{Proyecto:}
+
+A partir de las funciones en \verb=python=, realizadas en clase, obtenga las siguientes gráficas:
+
+\begin{itemize}
+\item Una gráfica que muestre el comportamiento del sol a lo largo del día, para los días 21 de cada mes. Considere gráficar los ángulo de la altura solar $\alpha$ y el ángulo acimutal $\gamma_s$. Seleccione una latitud de algún estado. 
+\item Realice las misma gráfica pero ahora considere las latitudes de 0$^\circ$, 10$^\circ$, 30$^\circ$ y 90$^\circ$, para el equinoccio, el solsticio de verano y de invierno.
+\item Realice un reporte
+\end{itemize}
+
+El reporte debe entregarse impreso y contener:
+\begin{itemize}
+\item Carátula 
+\item Introducción
+\item Metodología
+\item Resultados
+\item Conclusiones
+\end{itemize}
+
+Los reportes no deben de exceder las 5 hojas, sin considerar la carátula.
+
+\end{document}
+
+
+
+
+

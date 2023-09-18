@@ -4,5 +4,13 @@
 
 * Introducción
 
-El siguiente 
+El siguiente repositorio contiene la información del curso de Energía Fototérmica en la Universidad Politécnica de Aguascalientes.
 
+
+* vsolar
+
+La carpeta =vsolar= contiene el código para el cálculo del vector solar, basado en /python/.
+
+* E1
+
+La carpeta =E1= contiene los archivos de evaluación 01.
