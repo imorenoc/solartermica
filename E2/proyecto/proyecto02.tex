@@ -1,0 +1,100 @@
+% --------------------------------------------------------------
+
+\documentclass[spanish, letterpaper,12]{article}
+
+\usepackage[activeacute]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\spanishdecimal{.}
+
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[margin=1in]{geometry} 
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[numbers]{natbib}
+\usepackage{enumitem} % para reducir el espacio [noitemsep,nolistsep]
+\usepackage{verbatim}
+
+\usepackage{booktabs} % para las tablas \toprule \bo
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{./fig/}}
+
+
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\includegraphics[width=3cm]{upa.jpg}}
+\fancyhead[R]{}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Teorema]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Ejercicio]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problema]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Pregunta]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{Proyecto: Factor coseno}
+\author{Profesor: Dr. Isaías Moreno Cruz\\
+  Ingeniería en Energía Fototérmica (2023)\\
+Universidad Politécnica de Aguascalientes (UPA)}
+\date{13 de octubre de 2023}
+
+\maketitle
+
+\begin{itemize}[leftmargin=*, noitemsep]
+\item \textbf{Fecha de encargo:} viernes 13 de octubre
+\item \textbf{Fecha de entrega:} viernes 20 de octubre
+\end{itemize}
+% You can use theorem, exercise, problem, or question here.
+% --------------------------------------------------------------
+\thispagestyle{fancy}
+
+\section*{Proyecto:}
+
+Considere un canal parabólico con una apertura de 1~m$^2$ (área) que se desea colocar en la Universidad Politécnica de Aguascalientes. ¿Cuál es la orientación que usted recomendaría, para obtener la máxima cantidad de potencia?
+
+\begin{itemize}
+\item Evalue la potencia disponible a lo largo del año para una orientación Este-Oeste y Norte-Sur.
+\item Muestre gráficamente sus resultados.
+\item Realice un reporte
+\end{itemize}
+
+El reporte debe entregarse impreso y contener:
+\begin{itemize}
+\item \textbf{Carátula (5\%)}. Información necesaria que identifica al autor y la naturaleza del proyecto, como por ejemplo: Universidad, Materia, Alumno, Grupo, Profesor, Nombre del trabajo, Fecha, etc.
+\item \textbf{Introducción (5\%)}. Información general que nos permita introducirnos al tema. La introducción permite ir de los general a lo particular.
+\item \textbf{Metodología (25\%)}. Indicar el objetivo del trabajo y documentar, paso a paso, el procedimiento para lograrlo.   
+\item \textbf{Resultados (40\%)}. Documentar los resultados obtenidos del objetivo planteado, gráficas o valores numéricos relevantes. Se debe de explicar cada gráfica que se agrega y las gráficas deben de tener las etiquetas que permitan leer correctamente los ejes. Cada Valor documentado debe de tener sus unidades correspondientes.
+\item \textbf{Conclusiones (25\%)}. Se debe de redactar el aprendizaje que se tuvo al realizar el trabajo (tomando en cuenta el objetivo), cuales son los resultados más relevantes, las complicaciones se se tuvieron y los trabajos futuros.
+\end{itemize}
+
+Algunas recomendaciones:
+\begin{itemize}
+\item Titulo del trabajo: Evaluación del factor coseno en un canal parabólico
+\item Objetivo: Obtener y comparar la potencia en un colector parabólico a lo largo de un año en una orientación Este-Oeste y Norte-Sur.
+\end{itemize}
+
+Los reportes no deben de exceder las 6 hojas, sin considerar la carátula.
+
+\end{document}
+
+
+
+
+
