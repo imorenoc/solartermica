@@ -15,6 +15,15 @@ La carpeta =E1= contiene los archivos de evaluación 01.
 
 La carpeta =E2= contiene los archivos de evaluación 02.
 
+* Recurso solar
+
+- [[https://nsrdb.nrel.gov/][NSRDB: National Solar Radiation Database]]
+- [[https://globalsolaratlas.info/map?c=23.463246,-100.854492,5][Global Solar Atlas]]
+- [[http://wrdc.mgo.rssi.ru/wrdc_en_new.htm][World Radiation Data Centre]]
+- [[https://solarimetrico.geofisica.unam.mx/][Servicio Solarimétrico Mexicano]]
+- [[https://smn.conagua.gob.mx/es/observando-el-tiempo/estaciones-meteorologicas-automaticas-ema-s][Estaciones Meteorológicas Automáticas (EMAS)]]
+- [[https://esolmet.ier.unam.mx/][ESOLMET-IER]]
+- [[https://maps.london.gov.uk/lsom/][The London Solar Opportunities Map beta]]
 
 * Code
 
