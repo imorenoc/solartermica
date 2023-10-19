@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import statistics as stat
+#import statistics as stat
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('data_2014.csv', sep = ',', skiprows = 5)
