@@ -29,6 +29,13 @@ def omega(HMS, dt, tp):
 """
     return d2r(15.0*(HMS-12.0 + tp*dt/60.0))
 
+def omegaA(phi, delta):
+    """
+Omega de amanecer y anochecer [rad]
+phi   - latitud [rad]
+delta - declinacio [rad]
+"""
+    return acos( -tan(phi)*tan(delta) )
 
 def B(N):
     """ B [rad]"""

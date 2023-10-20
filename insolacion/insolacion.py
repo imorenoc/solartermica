@@ -39,7 +39,7 @@ def Kt(H,phi):
 Hasta un año, para que no se repitan los meses
 """
     from numpy import cos, arange
-    from vsolar import omega, omegaA, theta_z, delta, doy,d2r
+    from ps import omega, omegaA, theta_z, delta, doy,d2r
 
     Y = H.index.year[0]
     meses = H.index.month.unique().values
